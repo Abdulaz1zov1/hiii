@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1d0e52cf.css",
-    "main.js": "/static/js/main.8898d265.js",
+    "main.js": "/static/js/main.cd8b1f89.js",
     "static/media/IMG_4679.png": "/static/media/IMG_4679.c9fdf30e3f9ffc5e575b.png",
     "static/media/slide2.jpg": "/static/media/slide2.0b20b4075ee9f7a1efe2.jpg",
     "static/media/qush-talim-dekan.png": "/static/media/qush-talim-dekan.22e872d1f2eddda222ed.png",
@@ -166,10 +166,10 @@
     "static/media/university.svg": "/static/media/university.1174fbf945750d69a3b1393b707a6122.svg",
     "index.html": "/index.html",
     "main.1d0e52cf.css.map": "/static/css/main.1d0e52cf.css.map",
-    "main.8898d265.js.map": "/static/js/main.8898d265.js.map"
+    "main.cd8b1f89.js.map": "/static/js/main.cd8b1f89.js.map"
   },
   "entrypoints": [
     "static/css/main.1d0e52cf.css",
-    "static/js/main.8898d265.js"
+    "static/js/main.cd8b1f89.js"
   ]
 }

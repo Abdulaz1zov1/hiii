@@ -88,7 +88,7 @@ const content = {
         sub_header: {
             first: "INTERAKTIV XIZMAT",
             second: "KORRUPSIYAGA QARSHI KURASH",
-            third: "ISHONCH TELEFONI",
+            third: "qabul 2022",
             fourth: "VIRTUAL QABULXONA",
             fivth: "HEMIS O'QITUVCHI",
             sixth: "HEMIS TALABA",
@@ -1209,7 +1209,7 @@ const content = {
         sub_header: {
             first: "ИНТЕРАКТИВ",
             second: "БОРЬБА С КОРРУПЦИЕЙ",
-            third: "Телефон доверия",
+            third: "Поступление 2022",
             fourth: "Виртуальная приемная",
             fivth: "HEMIS ПРЕПОДАВАТЕЛЬ",
             sixth: "HEMIS СТУДЕНТ",
@@ -2302,7 +2302,7 @@ const content = {
         sub_header: {
             first: "INTERACTIVE SERVICE",
             second: "FIGHTING CORRUPTION",
-            third: "Call centre",
+            third: "Admission 2022",
             fourth: "VERTUAL RECEPTION",
             fivth: "HEMIS TEACHER",
             sixth: "HEMIS STUDENT"
