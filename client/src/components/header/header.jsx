@@ -465,7 +465,7 @@ function Header() {
                     <div class="header_nav_news">
                         <ul class="sub_menu__wrapper">
                             <li class="header_nav_li dropdown">
-                                <a href="https://double-degree.netlify.app/" class="header_nav_link font-weight-normal font-weight-normal dropbtn nav_news_link">
+                                <a href="http://double-degree.tcti.uz/" class="header_nav_link font-weight-normal font-weight-normal dropbtn nav_news_link">
                                     <span class="sub_header_2">{context[lang].sub_header.third} saytga o'tish </span>
                                 </a>
                             </li>
