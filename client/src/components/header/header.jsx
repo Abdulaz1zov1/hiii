@@ -466,7 +466,12 @@ function Header() {
                         <ul class="sub_menu__wrapper">
                             <li class="header_nav_li dropdown">
                                 <a href="http://double-degree.tcti.uz/" class="header_nav_link font-weight-normal font-weight-normal dropbtn nav_news_link">
-                                    <span class="sub_header_2">{context[lang].sub_header.third} saytga o'tish </span>
+                                    <span class="sub_header_2">{context[lang].sub_header.third} </span>
+                                </a>
+                            </li>
+                            <li class="header_nav_li dropdown">
+                                <a href="http://tctiyf.tcti.uz/" class="header_nav_link font-weight-normal font-weight-normal dropbtn nav_news_link">
+                                    <span class="sub_header_2">{context[lang].sub_header.tctiyf} </span>
                                 </a>
                             </li>
                             <li class="header_nav_li dropdown">

@@ -88,10 +88,11 @@ const content = {
         sub_header: {
             first: "INTERAKTIV XIZMAT",
             second: "KORRUPSIYAGA QARSHI KURASH",
-            third: "qabul 2022",
+            third: "qo'shma ta'lim 2022",
             fourth: "VIRTUAL QABULXONA",
             fivth: "HEMIS O'QITUVCHI",
             sixth: "HEMIS TALABA",
+            tctiyf: "TCTIYF "
         },
 
         search: {
@@ -1209,10 +1210,11 @@ const content = {
         sub_header: {
             first: "ИНТЕРАКТИВ",
             second: "БОРЬБА С КОРРУПЦИЕЙ",
-            third: "Поступление 2022",
+            third: "совместное обучение 2022",
             fourth: "Виртуальная приемная",
             fivth: "HEMIS ПРЕПОДАВАТЕЛЬ",
             sixth: "HEMIS СТУДЕНТ",
+            tctiyf: "TCTIYF"
 
         },
 
@@ -2302,10 +2304,11 @@ const content = {
         sub_header: {
             first: "INTERACTIVE SERVICE",
             second: "FIGHTING CORRUPTION",
-            third: "Admission 2022",
+            third: "JOINT EDUCATION 2022",
             fourth: "VERTUAL RECEPTION",
             fivth: "HEMIS TEACHER",
-            sixth: "HEMIS STUDENT"
+            sixth: "HEMIS STUDENT",
+            tctiyf: "TCTIYF"
         },
         search: {
             first: "Search",
