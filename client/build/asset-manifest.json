@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d0e52cf.css",
-    "main.js": "/static/js/main.d1bb969b.js",
+    "main.css": "/static/css/main.4f0aaa0e.css",
+    "main.js": "/static/js/main.15b7a725.js",
     "static/media/IMG_4679.png": "/static/media/IMG_4679.c9fdf30e3f9ffc5e575b.png",
     "static/media/slide2.jpg": "/static/media/slide2.0b20b4075ee9f7a1efe2.jpg",
     "static/media/qush-talim-dekan.png": "/static/media/qush-talim-dekan.22e872d1f2eddda222ed.png",
@@ -38,6 +38,7 @@
     "static/media/kasb.png": "/static/media/kasb.99d6194a8c628f9bdfbe.png",
     "static/media/bux2.jpg": "/static/media/bux2.2347821789ed76885d09.jpg",
     "static/media/OOMTF-uzb.png": "/static/media/OOMTF-uzb.88ea8346f5260d4e4d68.png",
+    "static/media/yobtf3.png": "/static/media/yobtf3.7f84081a63b519056bcf.png",
     "static/media/VTSUF-uzb.jpg": "/static/media/VTSUF-uzb.cfabe7b9f372df458921.jpg",
     "static/media/double-degree-uzb.jpg": "/static/media/double-degree-uzb.25d4fcde63a6507c5b5e.jpg",
     "static/media/slide4.jpg": "/static/media/slide4.64bf7bdb41219cff7a01.jpg",
@@ -138,9 +139,9 @@
     "static/media/oziq-5.jpg": "/static/media/oziq-5.bd9237edee2ee63d4ae8.jpg",
     "static/media/oziq-1.jpg": "/static/media/oziq-1.a41eb96ba89369ffb14e.jpg",
     "static/media/oziq-2.jpg": "/static/media/oziq-2.4bd4c42f7820a04a569f.jpg",
-    "static/media/burger_icon.svg": "/static/media/burger_icon.a3ce89d6a02abeac230aa1e105e66f42.svg",
+    "static/media/burger_icon.svg": "/static/media/burger_icon.ab3ea912d85a390aeef9090cd37608e7.svg",
     "static/media/2a366e578f_1525352911.jpg": "/static/media/2a366e578f_1525352911.add9d8ffa1070dadbe67.jpg",
-    "static/media/activity.svg": "/static/media/activity.b5d72eccc295e10dc8b33190ad112eae.svg",
+    "static/media/activity.svg": "/static/media/activity.da3326f9f437f5b654b77152ab5b61bb.svg",
     "static/media/oziq-3.jpg": "/static/media/oziq-3.293761063d6865beb712.jpg",
     "static/media/oziq-15.jpg": "/static/media/oziq-15.9ff3ce78ab22db804865.jpg",
     "static/media/oziq-6.jpg": "/static/media/oziq-6.a8762917945aada579e8.jpg",
@@ -150,26 +151,25 @@
     "static/media/7a48e85ae2_1614595249.jpg": "/static/media/7a48e85ae2_1614595249.b56e14d288cb001c7c28.jpg",
     "static/media/8b8f349796_1528715906.jpg": "/static/media/8b8f349796_1528715906.8432d755d1993b121b81.jpg",
     "static/media/mahsulot.jpg": "/static/media/mahsulot.6cdd2b79be847cca99b3.jpg",
-    "static/media/oziq-12.jpg": "/static/media/oziq-12.565ab4349adbd3443e44.jpg",
     "static/media/4.jpg": "/static/media/4.5320a53c6fa306cc9cdc.jpg",
-    "static/media/corruption.svg": "/static/media/corruption.f3c03f0cb90b811ac76d1468745e0dc8.svg",
+    "static/media/corruption.svg": "/static/media/corruption.6b02f28211cf2cfbe667d76999739d3c.svg",
     "static/media/2501d7a632_1528715906.jpg": "/static/media/2501d7a632_1528715906.208b29c0f9140669a260.jpg",
     "static/media/jis-tar.jpg": "/static/media/jis-tar.def42253d35b1110cdbd.jpg",
     "static/media/noorganik.jpg": "/static/media/noorganik.c22192fbd911436618b5.jpg",
-    "static/media/profile.svg": "/static/media/profile.8fa61f8a26b33100f3a1a0cb17733a2b.svg",
+    "static/media/profile.svg": "/static/media/profile.c3e71502b2e4d96a83b8635eb5741701.svg",
     "static/media/10.jpg": "/static/media/10.3685a4010fdc3da564d4.jpg",
-    "static/media/relation.svg": "/static/media/relation.d604b0310b16f3bdc6d881bb50214815.svg",
-    "static/media/interactive.svg": "/static/media/interactive.2006a5bb3501b1b9184a3c1f307225f6.svg",
-    "static/media/structure.svg": "/static/media/structure.6e5411635f26af98bc736b04dff46eb3.svg",
-    "static/media/student.svg": "/static/media/student.69fdcb4a546501cb592412da87b0d1b5.svg",
-    "static/media/close-menu.svg": "/static/media/close-menu.c4fd2fd0a4921b0de4b93be7af2a4fd4.svg",
-    "static/media/university.svg": "/static/media/university.1174fbf945750d69a3b1393b707a6122.svg",
+    "static/media/relation.svg": "/static/media/relation.24482d2ca34c2d675d9d75e48566a8dc.svg",
+    "static/media/interactive.svg": "/static/media/interactive.f38cad6796f420df10a6985d3eef4ac3.svg",
+    "static/media/structure.svg": "/static/media/structure.ef369241e74290b8f11466ac155db9dd.svg",
+    "static/media/student.svg": "/static/media/student.f865c5243ac0444a1134c63818d57960.svg",
+    "static/media/close-menu.svg": "/static/media/close-menu.dba80a327429ef3506203f66f2a5616b.svg",
+    "static/media/university.svg": "/static/media/university.0597a2a7cce2adbabe8b57da3f98abe3.svg",
     "index.html": "/index.html",
-    "main.1d0e52cf.css.map": "/static/css/main.1d0e52cf.css.map",
-    "main.d1bb969b.js.map": "/static/js/main.d1bb969b.js.map"
+    "main.4f0aaa0e.css.map": "/static/css/main.4f0aaa0e.css.map",
+    "main.15b7a725.js.map": "/static/js/main.15b7a725.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d0e52cf.css",
-    "static/js/main.d1bb969b.js"
+    "static/css/main.4f0aaa0e.css",
+    "static/js/main.15b7a725.js"
   ]
 }

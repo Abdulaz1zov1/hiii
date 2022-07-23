@@ -19,7 +19,7 @@ function RectorPage() {
                 <div class="about">
                     <div class="about-text">
                         <h2>{context[lang].rahbariyat.sixth}</h2>
-                        <p>{context[lang].rahbariyat.first} <a href=" "><i class="fa-brands fa-facebook"></i></a> <a href=" "><i class="fa-brands fa-instagram"></i></a></p>
+                        <p>{context[lang].rahbariyat.first} <a href="https://www.facebook.com/botir.usmonov.5" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a> <a href="https://www.instagram.com/b.usmonov_/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></p>
                         <p className='info'>{context[lang].rektor.p1}</p>
                     </div>
                     <div class="wrapper">

@@ -5,6 +5,7 @@ import ParticlesBg from 'particles-bg'
 import Image1 from '../../images/fakultet/Organika-dekan.jpg'
 import Image2 from '../../images/fakultet/Organika-manaviy-zam dekan.jpg'
 import Image3 from '../../images/fakultet/Organika-oquv-zam-dekan.jpg'
+import Image4 from '../../images/fakultet/yobtf3.png'
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-circle.png'
 import { Context as LanguageContext } from '../../Context/Language';
@@ -42,7 +43,7 @@ function PageStaticOne() {
                                         tabOne.current.classList.remove("opened")
                                         tabTwo.current.classList.remove("opened")
                                         tabThree.current.classList.add("opened")
-                                    }} id="defaultOpen">{context[lang].facultet1.a3}</button>
+                                    }} id="defaultOpen">{context[lang].facultet2.a7}</button>
                                 </div>
                                 <div id="About" ref={tabOne} class="tabcontent opened">
                                     <h4>{context[lang].facultet1.a1}</h4>
@@ -51,21 +52,40 @@ function PageStaticOne() {
                                 <div id="Functions" ref={tabTwo} class="tabcontent">
                                     <h4>{context[lang].facultet1.a5}</h4>
                                     <ul>
-                                        <li>{context[lang].kafedra.eleventh}</li>
-                                        <li>{context[lang].kafedra.nineth}</li>
-                                        <li>{context[lang].kafedra.twelveth}</li>
-                                        <li>{context[lang].kafedra.tenth}</li>
-                                        <li>{context[lang].kafedra.first}</li>
+                                        <li>- {context[lang].kafedra.eleventh}</li>
+                                        <li>- {context[lang].kafedra.nineth}</li>
+                                        <li>- {context[lang].kafedra.twelveth}</li>
+                                        <li>- {context[lang].kafedra.tenth}</li>
+                                        <li>- {context[lang].kafedra.first}</li>
                                     </ul>
                                 </div>
                                 <div id="Management" ref={tabThree} class="tabcontent">
                                     <h4>{context[lang].facultet2.a7}</h4>
                                     <ul>
-                                        <li>{context[lang].facultet2.a8}</li>
+                                        <h4>{context[lang].facultet2.a8}</h4>
                                         <li>{context[lang].facultet2.a9}</li>
                                         <li>{context[lang].facultet2.a10}</li>
+                                        <li>{context[lang].facultet2.a11}</li>
+                                        <li>{context[lang].facultet2.a12}</li>
+                                        <li>{context[lang].facultet2.a13}</li>
                                     </ul>
-                                    <p>{context[lang].facultet2.a11}</p>
+                                    <ul>
+                                        <h4>{context[lang].facultet2.a15}</h4>
+                                        <li>{context[lang].facultet2.a16}</li>
+                                        <li>{context[lang].facultet2.a17}</li>
+                                        <li>{context[lang].facultet2.a18}</li>
+                                        <li>{context[lang].facultet2.a19}</li>
+                                        <li>{context[lang].facultet2.a20}</li>
+                                        <li>{context[lang].facultet2.a21}</li>
+                                        <li>{context[lang].facultet2.a22}</li>
+                                        <li>{context[lang].facultet2.a23}</li>
+                                    </ul>
+                                    <ul>
+                                        <h4>{context[lang].facultet2.a24}</h4>
+                                        <li>{context[lang].facultet2.a25}</li>
+                                        <li>{context[lang].facultet2.a26}</li>
+                                        <li>{context[lang].facultet2.a27}</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +128,24 @@ function PageStaticOne() {
                                             </div>
                                         </div>
                                         <h6 class="fullname-personal">{context[lang].facultet2.a5}</h6>
+                                    </div>
+                                    <div class="wrapper-personal">
+                                        <div class="photo-personal">
+                                            <img class="images-personal" src={Image4} alt="About us" />
+                                            <div class="photo__large">
+                                                <div class="bg-text">
+                                                    <span class="degree">{context[lang].facultet1.a12}</span>
+                                                    <span class="info">
+                                                        <b>{context[lang].facultet1.a9}</b> {context[lang].facultet2.a4} 14:00-16:00
+                                                        <br />
+                                                        <b>{context[lang].bizningManzil.second}</b> 97 780-19-74
+                                                        <br />
+                                                        <b>{context[lang].bizningManzil.a1}</b> mansurm1974@mail.ru
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h6 class="fullname-personal">{context[lang].facultet2.a29}</h6>
                                     </div>
                                     <div class="wrapper-personal">
                                         <div class="photo-personal">

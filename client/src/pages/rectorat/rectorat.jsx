@@ -31,7 +31,13 @@ function PageStaticRectorat() {
                                         <img src={ImageRectorat1} alt="rector" />
                                         <h4>{context[lang].rahbariyat.sixth}</h4>
                                         <p>{context[lang].rahbariyat.first}</p>
-                                        <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a>
+                                            {/* <a href="https://www.instagram.com/b.usmonov_/" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                        <a href="https://www.facebook.com/botir.usmonov.5" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a> */}
+                                        {/* <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a> */}
                                     </Link>
                                 </div>
                                 <div class="card-rektorat">
@@ -39,7 +45,7 @@ function PageStaticRectorat() {
                                         <img src={ImageRectorat2} alt="prorector1" />
                                         <h4>{context[lang].rahbariyat.seventh}</h4>
                                         <p>{context[lang].rahbariyat.second}</p>
-                                        <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a>
+                                        {/* <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a> */}
                                     </Link>
                                 </div>
                                 <div class="card-rektorat">
@@ -47,7 +53,7 @@ function PageStaticRectorat() {
                                         <img src={ImageRectorat3} alt="prorector" />
                                         <h4>{context[lang].rahbariyat.eighth}</h4>
                                         <p>{context[lang].rahbariyat.third}</p>
-                                        <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a>
+                                        {/* <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a> */}
                                     </Link>
                                 </div>
                                 <div class="card-rektorat">
@@ -55,7 +61,7 @@ function PageStaticRectorat() {
                                         <img src={ImageRectorat4} alt="prorector" />
                                         <h4>{context[lang].rahbariyat.nineth}</h4>
                                         <p>{context[lang].rahbariyat.fourth}</p>
-                                        <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a>
+                                        {/* <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a> */}
                                     </Link>
                                 </div>
                                 <div class="card-rektorat">
@@ -63,7 +69,7 @@ function PageStaticRectorat() {
                                         <img src={ImageRectorat5} alt="prorector4" />
                                         <h4>{context[lang].rahbariyat.tenth}</h4>
                                         <p>{context[lang].rahbariyat.fifth}</p>
-                                        <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a>
+                                        {/* <a href=" "><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i></a> */}
                                     </Link>
                                 </div>
                             </div>

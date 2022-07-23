@@ -16,7 +16,7 @@ import Image8 from '../../images/kafedra/oziq-8.jpg'
 import Image9 from '../../images/kafedra/oziq-9.jpg'
 import Image10 from '../../images/kafedra/oziq-10.jpg'
 import Image11 from '../../images/kafedra/oziq-11.jpg'
-import Image12 from '../../images/kafedra/oziq-12.jpg'
+// import Image12 from '../../images/kafedra/oziq-12.jpg'
 import Image13 from '../../images/kafedra/oziq-13.jpg'
 import Image14 from '../../images/kafedra/oziq-14.jpg'
 import Image15 from '../../images/kafedra/oziq-15.jpg'
@@ -26,10 +26,6 @@ import Image18 from '../../images/kafedra/oziq-18.jpg'
 import Image19 from '../../images/kafedra/oziq-19.jpg'
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-circle.png'
-
-
-
-
 
 function PageStaticOne() {
     const tabOne = useRef()
@@ -51,7 +47,7 @@ function PageStaticOne() {
                                     tabTwo.current.classList.remove("opened")
                                     tabThree.current.classList.remove("opened")
                                     tabOne.current.classList.add("opened")
-                                }} id="defaultOpen">Kafedra tarixi va faoliyati
+                                }} id="defaultOpen">{context[lang].kaf1.p10}
                                 </button>
                                 <button class="tablinks" onClick={() => {
                                     tabOne.current.classList.remove("opened")
@@ -65,7 +61,7 @@ function PageStaticOne() {
                                 }} id="defaultOpen">Ilmiy yo'nalishlar</button>
                             </div>
                             <div id="About" ref={tabOne} class="tabcontent opened">
-                                <h4>Kafedra tarixi va faoliyati</h4>
+                                <h4>{context[lang].kaf1.p10}</h4>
                                 <p> “Oziq-ovqat mahsulotlari texnologiyasi” kafedrasi o’zining ta’lim va fan sohasidagi faoliyatini dunyodagi yetakchi oliy ta’lim muassasalari va ilmiy guruhlari tomonidan foydalanib kelinayotgan samarador usullar asosida olib boradi. Bu esa o’z navbatida, dunyoning yetakchi oliy ta’lim muassasalari (OTM), ilmiy tadqiqot institutlari (ITI) va ishlab chiqarish korporasiyalari bilan uzviy munosabatda bo’lishini ta’minlaydi. Kafedrada bakalavr, magistratura, tayanch doktorantura (PhD) va doktorantura (DSc) bosqichlarida kadrlar tayyorlanadi.
                                     Innovatsion ta’lim va fan texnologiyalari qo’llanilib va doimiy ravishda yangilanib, shuning bilan birgalikda kafedrada mavjud ilmiy yo’nalishlar muntazam rivojlantirilib kelinmoqda. Ishlab chiqarish va tegishli sanoat korxonalari bilan doimiy hamkorlik yuqori ilmiy salohiyatga ega bo’lgan yosh kadrlarni yetishtirishda muhim omillardan biri hisoblanib, hozirgi kunda kafedra Respublikamizdagi barcha hududlardagi zamonaviy korxonalar bilan bir qatorda xorijiy OTMlar bilan ham aloqalarni yo’lga qo’ygan.
                                 </p>
@@ -284,7 +280,7 @@ function PageStaticOne() {
                                     </div>
                                     <h6 class="fullname-personal"> Ayxodjaeva Nodira Karimullaevna</h6>
                                 </div>
-                                <div class="wrapper-personal">
+                                {/* <div class="wrapper-personal">
                                     <div class="photo-personal">
                                         <img class="images-personal" src={Image12} alt="About us" />
                                         <div class="photo__large">
@@ -299,7 +295,7 @@ function PageStaticOne() {
                                         </div>
                                     </div>
                                     <h6 class="fullname-personal"> Agzamov Xurshid  Kazimovich</h6>
-                                </div>
+                                </div> */}
                                 <div class="wrapper-personal">
                                     <div class="photo-personal">
                                         <img class="images-personal" src={Image13} alt="About us" />

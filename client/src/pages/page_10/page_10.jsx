@@ -1,165 +1,258 @@
-import Header from '../../components/header/header'
-import Footer from '../../components/footer/footer'
-import { useRef } from 'react'
-import { useContext } from 'react';
-import context from '../../lang/lang';
-import ParticlesBg from 'particles-bg'
-import { Context as LanguageContext } from '../../Context/Language';
-import Image from '../../images/93809a2de8_1621412188.jpg'
-import { Link } from 'react-router-dom';
-import Logo from '../../images/logo-circle.png'
-
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
+import { useRef } from "react";
+import { useContext } from "react";
+import context from "../../lang/lang";
+import ParticlesBg from "particles-bg";
+import { Context as LanguageContext } from "../../Context/Language";
+import Image from "../../images/93809a2de8_1621412188.jpg";
+import { Link } from "react-router-dom";
+import Logo from "../../images/logo-circle.png";
 
 function PageStaticOne() {
-    const tabOne = useRef()
-    const tabTwo = useRef()
-    const tabThree = useRef()
-    const { lang } = useContext(LanguageContext);
+  const tabOne = useRef();
+  const tabTwo = useRef();
+  const tabThree = useRef();
+  const tabFour = useRef();
+  const { lang } = useContext(LanguageContext);
 
-    return (
-        <>
-            <ParticlesBg color="#307ec7" type="cobweb" num={50} bg={true} />
-            <div className="container-pages">
-                <Header />
-                <div className="mainsss">
-                <div className='page_main'>
-                    <div class="row">
-                        <div class="col-lg-10 col-md-12">
-                            <h3>{context[lang].centre.seventh}</h3>
-                            <div class="tab">
-                                <button class="tablinks" onClick={() => {
-                                    tabTwo.current.classList.remove("opened")
-                                    tabThree.current.classList.remove("opened")
-                                    tabOne.current.classList.add("opened")
-                                }} id="defaultOpen">Bo'lim haqida</button>
-                                <button class="tablinks" onClick={() => {
-                                    tabOne.current.classList.remove("opened")
-                                    tabThree.current.classList.remove("opened")
-                                    tabTwo.current.classList.add("opened")
-                                }} id="defaultOpen">Bizning
-                                    maqsadimiz</button>
-                                <button class="tablinks" onClick={() => {
-                                    tabOne.current.classList.remove("opened")
-                                    tabTwo.current.classList.remove("opened")
-                                    tabThree.current.classList.add("opened")
-                                }} id="defaultOpen">Bizning
-                                    vazifamiz</button>
-                            </div>
-                            <div id="About" ref={tabOne} class="tabcontent opened">
-                                <h3>Bo'lim haqida</h3>
-                                <p>Toshkent Kimyo-texnologiya institutining o‘quv bo‘limni asosiy  vazifalariga o‘quv jarayonini tashkil qilish, Davlat ta’lim standart­lari, namunaviy o‘quv rejalar va namunaviy o‘quv dasturlarini va boshqa me’yoriy xujjatlarni ishlab chiqish, o‘quv jarayonining grafigini, o‘quv rejalarni tuzish, mashg‘ulotlar jadvalini tuzishga rahbarlik qilish va uni fakultetlarda tuzilishini nazoratga olish, o‘quv ishlar xajmini aniqlab fakultet va kafedralar bo‘yicha shtat jadvallarini hamda soatbay yuklamalarni tuzish, o‘quv ishlarini bajarilishini tekshirish, institut yillik hisobotini tuzish, o‘quv jarayoniga reyting tizimi va yangi pedagogik texnologiyalarni joriy qilish, Davlat Attestatsiyalarni tashkil qilish va uni o‘tkazish etish, kvalifikatsion amaliyotlarni tashkil etish, semestrlar yakunidan talabalarni o‘zlashtirishini umumlashtirish, institut auditoriya fondidan foydalanishni tekshirish, mashg‘ulotlarni fan dasturlariga mos ravishda to‘liq o‘tishi va darslarga qatnashganligini tekshirish bo‘yicha dispetcherlik xizmatini tashkil qilish bilan bog‘liq bo‘lgan ishlarni o‘z ichiga oladi.</p>
-                            </div>
-
-                            <div id="Functions" ref={tabTwo} class="tabcontent">
-                                <h3>Bizning maqsadimiz</h3>
-                                <p> “O‘zbekiston Respublikasi kadrlar tayyorlash milliy dasturi”ni joriy etishni uchinchi bosqichida o‘quv bo‘limi – yuqori malakali mutaxassislarni tayyorlash vazifalarini bajarishida quyidagilarga asosiy e’tibor qaratadi:
-                                    <br />
-                                    Talabalarning bilimlarini reyting tizimi asosida nazorat qilishda, ularning mustaqil ishlarini o‘quv jarayoniga to‘g‘ri tadbiq qilish;
-                                    O‘quv jarayonini tasdiqlangan o‘quv va normativhuquqiy xujjatlar asosida tashkil qilish;
-                                    Professoro‘qituvchi va talabalarga yuqori darajada ishonch va e’tibor bilan ijobiy muhitni yaratish;
-                                    Iqtidorli talabalarni tanlab, ularni maqsadli, kasbiy mahoratlarini oshirish;
-                                    Yangi pedagogik texnologiyalarni joriy etish, professoro‘qituvchilarning pedagogik mahoratlarini oshirish, ishlab chiqarish korxonalarining yetuk mutaxassislarni o‘quv jarayoniga jalb etish;
-                                    Ishlab chiqarish bilan oliy ta’lim integratsiyasini yaxshilash;
-                                    O‘quvmetodik adabi         yotlar bazasini kengaytirish;
-                                    O‘quv jarayonini boshqarish va uni tashkil etishda axborot texnika  komunikatsiyalariga yaqindan yondashish.
-                                    O‘quv bo‘limini asosiy ish rejalari quyidagilardan iborat
-                                    <br />
-                                    O‘quv jarayoni grafigini tuzish (mart-aprel)
-                                    Yo‘nalish va mutaxassisliklar bo‘yicha o‘quv rejalarini tuzish (mart-aprel)
-                                    Yangi o‘quv yili o‘quv jarayonini rejalashtirish (aprel-avgust)
-                                    O‘quv jarayonini tashkil etish va nazorat qilish (o‘quv yili davomida)
-                                    Talabalar kontingenti monitoringini amalga oshirish (o‘quv yili davomida)
-                                    Kvalifikatsion amaliyotlarni tashkil etish va nazorat qilish (o‘quv yili davomida)
-                                    Davlat Attestatsiya yakunlarini o‘tkazilishini nazorat qilish (dekabr-yanvar, may-iyun).</p>
-                            </div>
-
-
-                            <div id="Management" ref={tabThree} class="tabcontent">
-                                <h3>Bizning vazifamiz</h3>
-                                <p>Institutda o‘qitiladigan barcha bakalavriyat ta’lim yo‘nalishlari va magistratura mutaxassisliklari bo‘yicha Davlat ta’lim standartlari tuzilib Davlat Standarti tasdiqidan o‘tkazildi, Namunaviy fan dasturlari   o‘rnatilgan tartibga ko‘ra tasdiqlandi. Tasdiqlangan me’yoriy xujjatlar elektron nusxaga o‘tkazildi va ular bilan turdosh OTM ta’minlanmoqda.
-
-                                    Tayanch xisoblangan bakalavr ta’lim yo‘nalishlari va magistratura mutaxassisliklarining asosiy fanlari bo‘yicha vazirlikning talablariga ko‘ra O‘quv uslubiy majmualar yaratilmoqda;
-
-                                    Institutda Davlat Test Markazi tomonidan o‘tkaziladigan attestatsiyaga puxta tayyorgarlik ko‘rish maqsadida, talabalarning qoldiq bilimlarini oshirishga yo‘naltirilgan barcha fanlardan testlar sinovlari o‘tkazilmoqda;
-                                    <br />
-                                    Toshkent Kimyo-texnologiya institutiga turdosh bo‘lgan OTMlari bilan “Elektron o‘quv-uslubiy majmualar va ta’limni modernizatsiyalashning ustivor yo‘nalishlari” deb nomlangan ilmiy-uslubiy semenarni o‘tkazilishi may oyining oxiriga rejalashtirilgan, bu haqida Oliy ta’lim vazirligining modemnomasi yuboriladi.
-
-                                    O‘quv uslubiy bo‘lim Respublikamizdagi quyidagi Oliy ta’lim muassasalari bilan o‘quv va o‘quv-uslubiy ishlar bo‘yicha yaqindan ijodiy ishlar olib bormoqda:
-
-                                    O‘zMU, TDTU, QQDU, TAQI, TTESI, TIMI, And.MII, FarPI, SamDU, UrgDU, BuxMTI, QarDU, NavDKI, Qarshi MII, JizPI, ToshFarmI, NamMTI va boshqalar.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10">
-                            <div class="teachers justify-content-start">
-                                <div class="wrapper-personal">
-                                    <div class="photo-personal">
-                                        <img class="images-personal" src={Image} alt="About us" />
-                                        <div class="photo__large">
-                                            <div class="bg-text">
-                                                <span class="degree">Bo'lim boshlig'i</span>
-                                                <span class="info"> Xabibullayev Rashid Azamatovich
-
-                                                    Xizmat telefoni: 71 244–79–34;
-
-                                                    E-mail: rashidxabibullayev@gmail.com.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h6 class="fullname-personal">Xabibullayev Rashid Azamatovich</h6>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+  return (
+    <>
+      <ParticlesBg color="#307ec7" type="cobweb" num={50} bg={true} />
+      <div className="container-pages">
+        <Header />
+        <div className="mainsss">
+          <div className="page_main">
+            <div class="row">
+              <div class="col-lg-10 col-md-12">
+                <h3>{context[lang].centre.seventh}</h3>
+                <div class="tab">
+                  <button
+                    class="tablinks"
+                    onClick={() => {
+                      tabTwo.current.classList.remove("opened");
+                      tabThree.current.classList.remove("opened");
+                      tabOne.current.classList.add("opened");
+                    }}
+                    id="defaultOpen"
+                  >
+                    {context[lang].centre.fifteenth}
+                  </button>
+                  <button
+                    class="tablinks"
+                    onClick={() => {
+                      tabOne.current.classList.remove("opened");
+                      tabThree.current.classList.remove("opened");
+                      tabTwo.current.classList.add("opened");
+                    }}
+                    id="defaultOpen"
+                  >
+                    {context[lang].facultet1.a3}
+                  </button>
+                  <button
+                    class="tablinks"
+                    onClick={() => {
+                        console.log(222);
+                      tabOne.current.classList.remove("opened");
+                      tabTwo.current.classList.remove("opened");
+                      tabThree.current.classList.add("opened");
+                    }}
+                    id="defaultOpen"
+                  >
+                    {context[lang].oquvBulimi.oquv30}
+                  </button>
+                  {/* <button
+                    class="tablinks"
+                    onClick={() => {
+                        console.log(111);
+                      tabOne.current.classList.remove("opened");
+                      tabTwo.current.classList.remove("opened");
+                      tabThree.current.classList.add("opened");
+                    }}
+                    id="defaultOpen"
+                  >
+                    {context[lang].oquvBulimi.oquv43}
+                  </button> */}
                 </div>
-                <div className="navbar-side">
-                    <ul className="nav-ull">
-                        <li className='nav-ull-header'><p> <img src={`${Logo}`} alt="" /> Bo`limlar</p></li>
-                        <li className="nav-ul-li active"><a href="">O‘quv-uslubiy bo‘limi</a></li>
-                        <Link to={'/page/static/get/8'}>
-                        <li className="nav-ul-li"><a href="">Marketing va talabalar amaliyoti boʻlimi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/9'}>
-                        <li className="nav-ul-li"><a href="">Jismoniy va yuridik shaxslarning murojaatlari bilan ishlash, nazorat va monitoring bo'limi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/15'}>
-                        <li className="nav-ul-li"><a href="">Xalqaro aloqalar bo`limi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/13'}>
-                        <li className="nav-ul-li"><a href="">Ta’lim sifatini nazorat qilish bo‘limi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/7'}>
-                        <li className="nav-ul-li"><a href="">Magistratura bo‘limi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/4'}>
-                        <li className="nav-ul-li"><a href="">Ilmiy innovatsion ishlanmalarni tijoratlashtirish bo’limi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/6'}>
-                        <li className="nav-ul-li"><a href="">Kadrlar bo'limi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/12'}>
-                        <li className="nav-ul-li"><a href="">Sirtqi bo'lim</a></li>
-                        </Link>
-                        <li className='nav-ull-header'><p> <img src={`${Logo}`} alt="" /> Markazlar</p></li>
-                        <Link to={'/page/static/get/11'}>
-                        <li className="nav-ul-li"><a href="">Raqamli ta'lim texnologiyalari markazi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/14'}>
-                        <li className="nav-ul-li"><a href="">TKTI huzuridagi “Pedagogik kadrlarni qayta tayyorlash va malakasini oshirish” tarmoq markazi</a></li>
-                        </Link>
-                        <Link to={'/page/static/get/5'}>
-                        <li className="nav-ul-li"><a href="">Innovasion markazi</a></li>
-                        </Link>
-                    </ul>
-                    </div>
-                    </div>
+                <div id="About" ref={tabOne} class="tabcontent opened">
+                  <h3>{context[lang].centre.fifteenth}</h3>
+                  <p>{context[lang].oquvBulimi.oquv1}</p>
+                </div>
+
+                <div id="Functions" ref={tabTwo} class="tabcontent">
+                  <h3>{context[lang].facultet1.a3}</h3>
+                  <ul>
+                    <li>{context[lang].oquvBulimi.oquv2}</li>
+                    <li>{context[lang].oquvBulimi.oquv3}</li>
+                    <li>{context[lang].oquvBulimi.oquv4}</li>
+                    <li>{context[lang].oquvBulimi.oquv5}</li>
+                    <li>{context[lang].oquvBulimi.oquv6}</li>
+                    <li>{context[lang].oquvBulimi.oquv7}</li>
+                    <li>{context[lang].oquvBulimi.oquv8}</li>
+                    <li>{context[lang].oquvBulimi.oquv9}</li>
+                    <li>{context[lang].oquvBulimi.oquv10}</li>
+                    <li>{context[lang].oquvBulimi.oquv11}</li>
+                    <li>{context[lang].oquvBulimi.oquv12}</li>
+                    <li>{context[lang].oquvBulimi.oquv13}</li>
+                    <li>{context[lang].oquvBulimi.oquv14}</li>
+                    <li>{context[lang].oquvBulimi.oquv15}</li>
+                    <li>{context[lang].oquvBulimi.oquv16}</li>
+                    <li>{context[lang].oquvBulimi.oquv17}</li>
+                    <li>{context[lang].oquvBulimi.oquv18}</li>
+                    <li>{context[lang].oquvBulimi.oquv19}</li>
+                    <li>{context[lang].oquvBulimi.oquv20}</li>
+                    <li>{context[lang].oquvBulimi.oquv21}</li>
+                    <li>{context[lang].oquvBulimi.oquv22}</li>
+                    <li>{context[lang].oquvBulimi.oquv23}</li>
+                    <li>{context[lang].oquvBulimi.oquv24}</li>
+                    <li>{context[lang].oquvBulimi.oquv25}</li>
+                    <li>{context[lang].oquvBulimi.oquv26}</li>
+                    <li>{context[lang].oquvBulimi.oquv27}</li>
+                    <li>{context[lang].oquvBulimi.oquv28}</li>
+                    <li>{context[lang].oquvBulimi.oquv29}</li>
+                  </ul>
+                </div>
+
+                <div id="Management" ref={tabThree} class="tabcontent">
+                  <h3>{context[lang].oquvBulimi.oquv30}</h3>
+                  <p>{context[lang].oquvBulimi.oquv31}</p>
+                  <ul>
+                    <li>{context[lang].oquvBulimi.oquv32}</li>
+                    <li>{context[lang].oquvBulimi.oquv33}</li>
+                    <li>{context[lang].oquvBulimi.oquv34}</li>
+                    <li>{context[lang].oquvBulimi.oquv35}</li>
+                    <li>{context[lang].oquvBulimi.oquv36}</li>
+                    <li>{context[lang].oquvBulimi.oquv37}</li>
+                    <li>{context[lang].oquvBulimi.oquv38}</li>
+                    <li>{context[lang].oquvBulimi.oquv39}</li>
+                    <li>{context[lang].oquvBulimi.oquv40}</li>
+                    <li>{context[lang].oquvBulimi.oquv41}</li>
+                    <li>{context[lang].oquvBulimi.oquv42}</li>
+                  </ul>
+                  <h3>{context[lang].oquvBulimi.oquv43}</h3>
+                  <ul>
+                    <li>{context[lang].oquvBulimi.oquv44}</li>
+                    <li>{context[lang].oquvBulimi.oquv45}</li>
+                    <li>{context[lang].oquvBulimi.oquv46}</li>
+                    <li>{context[lang].oquvBulimi.oquv47}</li>
+                    <li>{context[lang].oquvBulimi.oquv48}</li>
+                    <li>{context[lang].oquvBulimi.oquv49}</li>
+                    <li>{context[lang].oquvBulimi.oquv50}</li>
+                  </ul>
+                </div>
+                
+              </div>
             </div>
-            <Footer />
-        </>
-    );
+            <div class="row">
+              <div class="col-md-10">
+                <div class="teachers justify-content-start">
+                  <div class="wrapper-personal">
+                    <div class="photo-personal">
+                      <img class="images-personal" src={Image} alt="About us" />
+                      <div class="photo__large">
+                        <div class="bg-text">
+                          <span class="degree">{context[lang].facultet6.a42}</span>
+                          <span class="info">
+                            tel: 71 244–79–34; <br />
+                            E-mail: rashidxabibullayev@gmail.com.
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="fullname-personal">
+                      {context[lang].oquvBulimi.oquv51}
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="navbar-side">
+            <ul className="nav-ull">
+              <li className="nav-ull-header">
+                <p>
+                  {" "}
+                  <img src={`${Logo}`} alt="" />
+                  {context[lang].centre.first}
+                </p>
+              </li>
+              <li className="nav-ul-li active">
+                <a href=" ">{context[lang].centre.seventh}</a>
+              </li>
+              <Link to={"/page/static/get/9"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.fourth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/8"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.third}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/13"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.sixth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/12"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.eleventh}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/7"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.eighth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/4"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.nineth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/6"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.tenth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/15"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.fivth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/44"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.bugalter}</a>
+                </li>
+              </Link>
+              <li className="nav-ull-header">
+                <p>
+                  {" "}
+                  <img src={`${Logo}`} alt="" />
+                  {context[lang].centre.second}
+                </p>
+              </li>
+              <Link to={"/page/static/get/11"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.twelveth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/14"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.thirteenth}</a>
+                </li>
+              </Link>
+              <Link to={"/page/static/get/5"}>
+                <li className="nav-ul-li">
+                  <a href=" ">{context[lang].centre.fourteenth}</a>
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
 }
 
 export default PageStaticOne;
