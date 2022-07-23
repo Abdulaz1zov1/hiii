@@ -782,7 +782,7 @@ function Header() {
             <ul class="sub_menu__wrapper">
               <li class="header_nav_li dropdown">
                 <a
-                  href="qabul2022"
+                  href="http://double-degree.tcti.uz/"
                   target="blank"
                   rel="noopener noreferrer"
                   class="header_nav_link font-weight-normal font-weight-normal dropbtn nav_news_link"
