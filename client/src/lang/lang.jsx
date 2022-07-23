@@ -101,7 +101,7 @@ const content = {
       fourth: "VIRTUAL QABULXONA",
       fivth: "HEMIS O'QITUVCHI",
       sixth: "HEMIS TALABA",
-      seventh: "Qabul-2022 Qo'shma ta'lim",
+      seventh: "Qo'shma ta'lim sayti",
     },
 
     search: {
